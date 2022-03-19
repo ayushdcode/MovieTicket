@@ -6,7 +6,7 @@ import java.util.List;
 public class Theatre {
     private final String id;
     private final String theatreName;
-    List<Screen> screens;
+    private final List<Screen> screens;
 
     public Theatre(String id, String theatreName) {
         this.id = id;

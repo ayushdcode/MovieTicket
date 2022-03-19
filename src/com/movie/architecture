@@ -1,0 +1,23 @@
+Entities :
+    MovieTicket
+    PaymentStatus
+    Screen
+    Seat
+    Theatre
+    Show
+    SeatLock
+    BookingStatus : Created, Expired, Confirmed
+
+Services :
+    BookingService
+    MovieService
+    PaymentService
+    SeatAvailabilityService
+    ShowService
+    TheatreService
+
+providers :
+    SeatLockProvider
+
+Exceptions :
+    .....
